@@ -1,0 +1,147 @@
+/* Estil general */
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background: linear-gradient(135deg, #004d98, #a50044);
+  color: #ffffff;
+}
+
+/* Enllaços */
+a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Capçalera */
+header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+header .logo {
+  height: 60px;
+  margin-right: 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+header p {
+  font-style: italic;
+  margin: 0 0 0 10px;
+}
+
+/* Navegació */
+nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Seccions */
+section {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+section h2, section h3 {
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* Llistes */
+ul {
+  list-style: disc inside;
+  padding-left: 20px;
+}
+
+/* Imatges generals */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+/* Imatges petites */
+.small-img {
+  width: 150px;
+  height: auto;
+  margin: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+}
+
+/* Contenidor d'imatges petites */
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Peu de pàgina */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 0.9em;
+}
+
+/* Enquesta */
+.poll {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.poll h3 {
+  margin-top: 0;
+}
+
+.poll label {
+  display: block;
+  margin: 10px 0;
+}
+
+.poll button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.poll button:hover {
+  background-color: #e6b800;
+}
